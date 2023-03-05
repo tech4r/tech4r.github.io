@@ -1,0 +1,21 @@
+
+h1{
+    color: #000000;
+    font-family: "verdana", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: left;
+
+}
