@@ -564,7 +564,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: #919191;
 }
 
@@ -815,6 +815,44 @@ section {
     max-width: 40%;
   }
 }
+
+
+
+/*--------------------------------------------------------------
+# technologies
+--------------------------------------------------------------*/
+#technologies {
+  padding: 15px 0;
+  text-align: center;
+}
+
+#technologies img {
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  filter: grayscale(100);
+}
+
+#technologies img:hover {
+  filter: none;
+  transform: scale(1.15);
+}
+
+@media (max-width: 768px) {
+  #technologies img {
+    max-width: 40%;
+  }
+}
+
+
+#technologies h4{
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #124265;
+}
+
 
 /*--------------------------------------------------------------
 # Testimonials
